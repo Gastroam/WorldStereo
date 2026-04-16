@@ -24,6 +24,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2602.24233"><img src="https://img.shields.io/badge/arXiv-2602.24233-b31b1b.svg" alt="arXiv"></a>
   <a href="https://huggingface.co/hanshanxue/WorldStereo"><img src="https://img.shields.io/badge/🤗-Model_Weights-yellow.svg" alt="HuggingFace"></a>
+  <img src="https://img.shields.io/badge/CVPR-2026-blue.svg" alt="CVPR 2026">
 </p>
 
 </div>
@@ -32,6 +33,7 @@
 
 ## 📅 News
 
+- `[2026.02]` 🎉 WorldStereo is accepted by **CVPR 2026**!
 - `[2026.03]` 📄 Paper is now available on arXiv: [https://arxiv.org/abs/2602.24233](https://arxiv.org/abs/2602.24233)
 - `[2026.04]` 🚀 Code and model weights of WorldStereo 2.0 are now released!
 - `[2026.04]` 🚀 HY-World 2.0 are now released: [https://github.com/Tencent-Hunyuan/HY-World-2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0) !
@@ -472,9 +474,9 @@ If you find WorldStereo useful in your research, please cite:
 
 ```bibtex
 @article{zhang2026worldstereo,
-  title     = {WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories},
-  author    = {Zhang, Yisu and Cao, Chenjie and Wang, Tengfei and Zuo, Xuhui and Wu, Junta and Zhu, Jianke and Guo, Chunchao},
-  journal   = {arXiv preprint arXiv:2602.24233},
-  year      = {2026}
+  title={WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories},
+  author={Zhang, Yisu and Cao, Chenjie and Wang, Tengfei and Zuo, Xuhui and Wu, Junta and Zhu, Jianke and Guo, Chunchao},
+  journal={arXiv preprint arXiv:2603.02049},
+  year={2026}
 }
 ```
