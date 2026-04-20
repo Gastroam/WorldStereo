@@ -398,7 +398,7 @@ output = worldstereo(**pipeline_inputs)
 ├── image.png                 # reference image
 ├── prompt.json               # text descriptions at three verbosity levels
 │   # {"short caption": ..., "medium caption": ..., "long caption": ...}
-└── camera.json               # camera trajectory
+└── camera.json               # camera trajectory, extrinsic is [4x4] w2c in the opencv coordinate
     # {"motion_list": [...], "extrinsic": [...], "intrinsic": [...]}
 ```
 
@@ -414,7 +414,7 @@ output = worldstereo(**pipeline_inputs)
         └── <traj_id>/
             ├── render.mp4         # pre-rendered geometry video (point cloud warp)
             ├── render_mask.mp4    # binary occlusion mask video
-            └── camera.json        # {"extrinsic": [...], "intrinsic": [...]}
+            └── camera.json        # {"extrinsic": [...], "intrinsic": [...]}, extrinsic is [4x4] w2c in the opencv coordinate
 ```
 
 ---
